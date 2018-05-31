@@ -14,7 +14,7 @@
 
 
 
-##分布式爬虫抓取空气质量指数
+## 分布式爬虫抓取空气质量指数
 
 博客文档: [使用celery构建分布式爬虫抓取空气质量指数](https://journal.ethanshub.com/post/category/gong-cheng-shi/-python-apa-chong-kong-qi-zhi-liang-he-fen-bu-shi) 
 
