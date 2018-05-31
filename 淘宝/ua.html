@@ -1,0 +1,33 @@
+<html>
+<head>
+<script>
+var UA_Opt=new Object;
+var ua="";
+UA_Opt.LogVal="ua";
+UA_Opt.MaxMCLog=6;
+UA_Opt.MaxMPLog=5;
+UA_Opt.MaxKSLog=5;
+UA_Opt.Token=new Date().getTime()+":"+Math.random();
+UA_Opt.SendMethod=8;
+UA_Opt.Flag=12430;
+function getUA(){
+	var tmp = ua;
+	try {
+		UA_Opt.Token= new Date().getTime()+":"+Math.random();
+		UA_Opt.reload();
+	}
+	catch(err){}
+		return tmp;
+}
+</script>
+<script src="https://uaction.alicdn.com/js/ua.js"></script>
+<script>
+
+ua:getUA()
+document.write("<p>"+ua+"</p>");
+</script>
+</head>
+<body>
+
+</body>
+<html>
