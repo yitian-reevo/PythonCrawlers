@@ -4,6 +4,22 @@
 
 每个项目我都同步写过文档，一并附上。
 
+## 分布式全站爬取kuku漫画
+
+**博客文档**: [使用scrapy_redis进行kuku漫画全站爬取](https://journal.ethanshub.com/post/category/gong-cheng-shi/-python-pa-chong-shi-li-kukuman-hua-scrapy_redis)
+
+**关键词**：Python3.6, scrapy, scrapy—redis, redis
+
+使用scrapy_redis对kuku漫画进行全站爬取，结果保存到redis中，起了9个实例，每个请求并发数为16，峰值大约为一个小时27万。
+
+## 全站爬取kuku漫画
+
+**博客文档**: [使用pyspider进行kuku漫画全站爬取](https://journal.ethanshub.com/post/category/gong-cheng-shi/-python-pa-chong-shi-li-kukuman-hua-pyspider)
+
+**关键词**：pyspider
+
+使用pysider对kuku漫画进行全站爬取，为时2天不到，单实例，请求峰值大约为一小时7W。
+
 ## 爬取动漫屋
 
 **博客文档**: [爬取动漫屋](https://journal.ethanshub.com/post/category/gong-cheng-shi/-python-apa-chong-dong-man-wu)。
