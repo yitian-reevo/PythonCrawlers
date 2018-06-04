@@ -8,7 +8,7 @@
 
 **博客文档**: [使用scrapy_redis进行kuku漫画全站爬取](https://journal.ethanshub.com/post/category/gong-cheng-shi/-python-pa-chong-shi-li-kukuman-hua-scrapy_redis)
 
-**关键词**：Python3.6, scrapy, scrapy—redis, redis
+**关键词**：Python3.6, scrapy, scrapy_redis, redis
 
 使用scrapy_redis对kuku漫画进行全站爬取，结果保存到redis中，起了9个实例，每个请求并发数为16，峰值大约为一个小时27万。
 
